@@ -1,0 +1,113 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #623481;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #623481;
+    padding: 12px 14px;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #623481;
+    color: rgb(0, 0, 0);
+  }
+  .km {
+    text-align: center;
+}
+input[type="text"] {
+    width: 800px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 
+.topnav {
+    display: flex;
+    justify-content: center; /* Centering the nav */
+    background-color: rgb(110, 85%, 134%);
+    padding: 10px 0;
+}
+
+.topnav a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px;
+}
+img{
+    border-radius: 15px;
+}
+.topnav a:hover {
+    background-color: #0a0a0a;
+    border-radius: 5px;
+}
+
+.topnav a.active {
+    background-color: ;
+    border-radius: 10px;
+}
+.imageclass{
+    padding-left: 180px;
+}
+.pic{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    width: 100%;          /* Full viewport height */
+    background-color: #623481; /* Light background */
+}
+
+/* Styling for the input box */
+#mySearch {
+    width: 80%;                /* Input takes 80% of the div's width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;       /* Curved edges */
+    outline: none;
+    font-size: 16px;
+}
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+#mySearch {
+    width: 100%;
+    padding: 10px;
+    padding-right: 90px; /* Space for icons */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.icons {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.icons i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+
